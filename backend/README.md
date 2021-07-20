@@ -24,7 +24,7 @@ NB: We using virtualenv, install from `$ pip install -r requirements.txt`.
 
 ## API Endpoints
 
-Generate File - http://127.0.0.1:8000/api/v1/generate/
+Generate File - [GET]http://127.0.0.1:8000/api/v1/generate/
 
 response:
 
@@ -40,9 +40,9 @@ response:
         }
     }
 
-Download File (From Generate File) - http://127.0.0.1:8000/api/v1/download/1b118e72-9f0c-42f8-a0d8-30f4116ffd9e.txt
+Download File (From Generate File) - [GET]http://127.0.0.1:8000/api/v1/download/1b118e72-9f0c-42f8-a0d8-30f4116ffd9e.txt
 
-Reports (Count) (From Generate File) - http://127.0.0.1:8000/api/v1/report/1b118e72-9f0c-42f8-a0d8-30f4116ffd9e/
+Reports (Count) (From Generate File) - [GET]http://127.0.0.1:8000/api/v1/report/1b118e72-9f0c-42f8-a0d8-30f4116ffd9e/
 
 response:
 
