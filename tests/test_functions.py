@@ -1,4 +1,4 @@
-from backend.utils import (
+from utils import (
     type_count, gen_alphabet, gen_alphanumeric, gen_real_numbers, gen_integers
 )
 
